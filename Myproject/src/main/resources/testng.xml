@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="My Project BCQAM APPLICATION">
+
+<listeners>
+		<listener class-name="com.myproject.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+
+
+
+  <test name="BCQAM TEST CASES">
+    <classes>
+      
+	      <class name="com.myproject.qa.testcases.Loginpagetest"/>
+	      <class name="com.myproject.qa.testcases.Homepagetest"/>
+	      <class name="com.myproject.qa.testcases.Newinspectionpagetest"/>
+	       <class name="com.myproject.qa.testcases.Inspecteddatapagetest"/>
+	      
+      
+    </classes>
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

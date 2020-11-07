@@ -1,0 +1,9 @@
+com\myproject\qa\pages\Summarypage.class
+com\myproject\qa\ExtentReportListener\ExtentReporterNG.class
+com\myproject\qa\pages\Homepage.class
+com\myproject\qa\base\TestBase.class
+com\myproject\qa\pages\Loginpage.class
+com\myproject\qa\utility\Testutil.class
+com\myproject\qa\utility\WebEventListener.class
+com\myproject\qa\pages\Inspecteddatapage.class
+com\myproject\qa\pages\Newinspectionpage.class

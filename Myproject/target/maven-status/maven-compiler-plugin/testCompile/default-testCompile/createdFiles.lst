@@ -1,0 +1,4 @@
+com\myproject\qa\testcases\Loginpagetest.class
+com\myproject\qa\testcases\Inspecteddatapagetest.class
+com\myproject\qa\testcases\Homepagetest.class
+com\myproject\qa\testcases\Newinspectionpagetest.class
