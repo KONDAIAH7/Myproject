@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [My Project BCQAM APPLICATION]">
+  <listeners>
+    <listener class-name="com.myproject.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="BCQAM TEST CASES(failed)">
+    <classes>
+      <class name="com.myproject.qa.testcases.Homepagetest">
+        <methods>
+          <include name="setup"/>
+          <include name="verifyhomepagelabeltest"/>
+          <include name="verifyHomepagetitletest"/>
+          <include name="verifyinspectionpagelink"/>
+          <include name="teardown"/>
+          <include name="verifysummarypagelink"/>
+        </methods>
+      </class> <!-- com.myproject.qa.testcases.Homepagetest -->
+      <class name="com.myproject.qa.testcases.Newinspectionpagetest">
+        <methods>
+          <include name="verifynewinspectiontest"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.myproject.qa.testcases.Newinspectionpagetest -->
+      <class name="com.myproject.qa.testcases.Loginpagetest">
+        <methods>
+          <include name="LoginTest"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="loginpagetititletest"/>
+          <include name="CGSLogoTest"/>
+        </methods>
+      </class> <!-- com.myproject.qa.testcases.Loginpagetest -->
+      <class name="com.myproject.qa.testcases.Inspecteddatapagetest">
+        <methods>
+          <include name="verifyinspectpagetest"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.myproject.qa.testcases.Inspecteddatapagetest -->
+    </classes>
+  </test> <!-- BCQAM TEST CASES(failed) -->
+</suite> <!-- Failed suite [My Project BCQAM APPLICATION] -->

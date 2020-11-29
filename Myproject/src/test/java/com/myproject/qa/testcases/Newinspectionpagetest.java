@@ -37,7 +37,7 @@ public class Newinspectionpagetest extends TestBase
 			
 		HmePage=LgnPage.Login(prop.getProperty("username"), prop.getProperty("password"));
 		newinspectpage=HmePage.clickonnewinspectionlink();
-		 Thread.sleep(4000);	
+		 Thread.sleep(5000);	
 	}
 	
 	@Test
@@ -49,11 +49,12 @@ public class Newinspectionpagetest extends TestBase
 	
 	
 	
-	@AfterMethod
+	/*@AfterMethod
 	public void teardown()
 	{
 		driver.quit();
-	}
+	} 
+	*/
 	
 	
 	

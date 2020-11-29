@@ -2,30 +2,30 @@
 <testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="My Project BCQAM APPLICATION" duration-ms="180807" started-at="2020-11-07T05:20:24Z" finished-at="2020-11-07T05:23:25Z">
+  <suite name="My Project BCQAM APPLICATION" duration-ms="178311" started-at="2020-11-25T11:56:48Z" finished-at="2020-11-25T11:59:46Z">
     <groups>
     </groups>
-    <test name="BCQAM TEST CASES" duration-ms="180807" started-at="2020-11-07T05:20:24Z" finished-at="2020-11-07T05:23:25Z">
+    <test name="BCQAM TEST CASES" duration-ms="178311" started-at="2020-11-25T11:56:48Z" finished-at="2020-11-25T11:59:46Z">
       <class name="com.myproject.qa.testcases.Newinspectionpagetest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.myproject.qa.testcases.Newinspectionpagetest@6107227e]" name="setup" is-config="true" duration-ms="23476" started-at="2020-11-07T10:50:24Z" finished-at="2020-11-07T10:50:48Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.myproject.qa.testcases.Newinspectionpagetest@6107227e]" name="setup" is-config="true" duration-ms="26518" started-at="2020-11-25T17:26:48Z" finished-at="2020-11-25T17:27:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifynewinspectiontest()[pri:0, instance:com.myproject.qa.testcases.Newinspectionpagetest@6107227e]" name="verifynewinspectiontest" duration-ms="3520" started-at="2020-11-07T10:50:48Z" finished-at="2020-11-07T10:50:51Z">
+        <test-method status="PASS" signature="verifynewinspectiontest()[pri:0, instance:com.myproject.qa.testcases.Newinspectionpagetest@6107227e]" name="verifynewinspectiontest" duration-ms="3400" started-at="2020-11-25T17:27:14Z" finished-at="2020-11-25T17:27:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifynewinspectiontest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.myproject.qa.testcases.Newinspectionpagetest@6107227e]" name="teardown" is-config="true" duration-ms="766" started-at="2020-11-07T10:50:51Z" finished-at="2020-11-07T10:50:52Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.myproject.qa.testcases.Newinspectionpagetest@6107227e]" name="teardown" is-config="true" duration-ms="852" started-at="2020-11-25T17:27:18Z" finished-at="2020-11-25T17:27:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.myproject.qa.testcases.Newinspectionpagetest -->
       <class name="com.myproject.qa.testcases.Inspecteddatapagetest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.myproject.qa.testcases.Inspecteddatapagetest@7c417213]" name="setup" is-config="true" duration-ms="25768" started-at="2020-11-07T10:50:53Z" finished-at="2020-11-07T10:51:18Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.myproject.qa.testcases.Inspecteddatapagetest@7c417213]" name="setup" is-config="true" duration-ms="23657" started-at="2020-11-25T17:27:19Z" finished-at="2020-11-25T17:27:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyinspectpagetest(java.lang.String, java.lang.String)[pri:0, instance:com.myproject.qa.testcases.Inspecteddatapagetest@7c417213]" name="verifyinspectpagetest" duration-ms="10976" started-at="2020-11-07T10:51:18Z" data-provider="getBCQAMTestData" finished-at="2020-11-07T10:51:29Z">
+        <test-method status="PASS" signature="verifyinspectpagetest(java.lang.String, java.lang.String)[pri:0, instance:com.myproject.qa.testcases.Inspecteddatapagetest@7c417213]" name="verifyinspectpagetest" duration-ms="9748" started-at="2020-11-25T17:27:43Z" data-provider="getBCQAMTestData" finished-at="2020-11-25T17:27:52Z">
           <params>
             <param index="0">
               <value>
@@ -41,95 +41,95 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyinspectpagetest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.myproject.qa.testcases.Inspecteddatapagetest@7c417213]" name="teardown" is-config="true" duration-ms="2" started-at="2020-11-07T10:51:29Z" finished-at="2020-11-07T10:51:29Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.myproject.qa.testcases.Inspecteddatapagetest@7c417213]" name="teardown" is-config="true" duration-ms="1" started-at="2020-11-25T17:27:52Z" finished-at="2020-11-25T17:27:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.myproject.qa.testcases.Inspecteddatapagetest -->
       <class name="com.myproject.qa.testcases.Homepagetest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.myproject.qa.testcases.Homepagetest@5db45159]" name="setup" is-config="true" duration-ms="16460" started-at="2020-11-07T10:51:39Z" finished-at="2020-11-07T10:51:55Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.myproject.qa.testcases.Homepagetest@5db45159]" name="setup" is-config="true" duration-ms="15891" started-at="2020-11-25T17:28:02Z" finished-at="2020-11-25T17:28:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyHomepagetitletest()[pri:1, instance:com.myproject.qa.testcases.Homepagetest@5db45159]" name="verifyHomepagetitletest" duration-ms="16" started-at="2020-11-07T10:51:55Z" finished-at="2020-11-07T10:51:55Z">
+        <test-method status="PASS" signature="verifyHomepagetitletest()[pri:1, instance:com.myproject.qa.testcases.Homepagetest@5db45159]" name="verifyHomepagetitletest" duration-ms="13" started-at="2020-11-25T17:28:18Z" finished-at="2020-11-25T17:28:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomepagetitletest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.myproject.qa.testcases.Homepagetest@5db45159]" name="teardown" is-config="true" duration-ms="761" started-at="2020-11-07T10:51:55Z" finished-at="2020-11-07T10:51:56Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.myproject.qa.testcases.Homepagetest@5db45159]" name="teardown" is-config="true" duration-ms="778" started-at="2020-11-25T17:28:18Z" finished-at="2020-11-25T17:28:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.myproject.qa.testcases.Homepagetest@5db45159]" name="setup" is-config="true" duration-ms="16438" started-at="2020-11-07T10:52:07Z" finished-at="2020-11-07T10:52:24Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.myproject.qa.testcases.Homepagetest@5db45159]" name="setup" is-config="true" duration-ms="15886" started-at="2020-11-25T17:28:29Z" finished-at="2020-11-25T17:28:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyhomepagelabeltest()[pri:2, instance:com.myproject.qa.testcases.Homepagetest@5db45159]" name="verifyhomepagelabeltest" duration-ms="102" started-at="2020-11-07T10:52:24Z" finished-at="2020-11-07T10:52:24Z">
+        <test-method status="PASS" signature="verifyhomepagelabeltest()[pri:2, instance:com.myproject.qa.testcases.Homepagetest@5db45159]" name="verifyhomepagelabeltest" duration-ms="61" started-at="2020-11-25T17:28:45Z" finished-at="2020-11-25T17:28:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyhomepagelabeltest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.myproject.qa.testcases.Homepagetest@5db45159]" name="teardown" is-config="true" duration-ms="751" started-at="2020-11-07T10:52:24Z" finished-at="2020-11-07T10:52:24Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.myproject.qa.testcases.Homepagetest@5db45159]" name="teardown" is-config="true" duration-ms="800" started-at="2020-11-25T17:28:45Z" finished-at="2020-11-25T17:28:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.myproject.qa.testcases.Homepagetest@5db45159]" name="setup" is-config="true" duration-ms="16255" started-at="2020-11-07T10:52:42Z" finished-at="2020-11-07T10:52:58Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.myproject.qa.testcases.Homepagetest@5db45159]" name="setup" is-config="true" duration-ms="16121" started-at="2020-11-25T17:29:05Z" finished-at="2020-11-25T17:29:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyinspectionpagelink()[pri:3, instance:com.myproject.qa.testcases.Homepagetest@5db45159]" name="verifyinspectionpagelink" duration-ms="4128" started-at="2020-11-07T10:52:58Z" finished-at="2020-11-07T10:53:02Z">
+        <test-method status="PASS" signature="verifyinspectionpagelink()[pri:3, instance:com.myproject.qa.testcases.Homepagetest@5db45159]" name="verifyinspectionpagelink" duration-ms="4131" started-at="2020-11-25T17:29:21Z" finished-at="2020-11-25T17:29:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyinspectionpagelink -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.myproject.qa.testcases.Homepagetest@5db45159]" name="teardown" is-config="true" duration-ms="747" started-at="2020-11-07T10:53:02Z" finished-at="2020-11-07T10:53:03Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.myproject.qa.testcases.Homepagetest@5db45159]" name="teardown" is-config="true" duration-ms="804" started-at="2020-11-25T17:29:25Z" finished-at="2020-11-25T17:29:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.myproject.qa.testcases.Homepagetest@5db45159]" name="setup" is-config="true" duration-ms="18280" started-at="2020-11-07T10:53:03Z" finished-at="2020-11-07T10:53:21Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.myproject.qa.testcases.Homepagetest@5db45159]" name="setup" is-config="true" duration-ms="16056" started-at="2020-11-25T17:29:26Z" finished-at="2020-11-25T17:29:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifysummarypagelink()[pri:4, instance:com.myproject.qa.testcases.Homepagetest@5db45159]" name="verifysummarypagelink" duration-ms="3127" started-at="2020-11-07T10:53:21Z" finished-at="2020-11-07T10:53:24Z">
+        <test-method status="PASS" signature="verifysummarypagelink()[pri:4, instance:com.myproject.qa.testcases.Homepagetest@5db45159]" name="verifysummarypagelink" duration-ms="3130" started-at="2020-11-25T17:29:42Z" finished-at="2020-11-25T17:29:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifysummarypagelink -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.myproject.qa.testcases.Homepagetest@5db45159]" name="teardown" is-config="true" duration-ms="749" started-at="2020-11-07T10:53:24Z" finished-at="2020-11-07T10:53:25Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.myproject.qa.testcases.Homepagetest@5db45159]" name="teardown" is-config="true" duration-ms="818" started-at="2020-11-25T17:29:45Z" finished-at="2020-11-25T17:29:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.myproject.qa.testcases.Homepagetest -->
       <class name="com.myproject.qa.testcases.Loginpagetest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.myproject.qa.testcases.Loginpagetest@2b6856dd]" name="setup" is-config="true" duration-ms="8326" started-at="2020-11-07T10:51:29Z" finished-at="2020-11-07T10:51:38Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.myproject.qa.testcases.Loginpagetest@2b6856dd]" name="setup" is-config="true" duration-ms="8608" started-at="2020-11-25T17:27:52Z" finished-at="2020-11-25T17:28:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginpagetititletest()[pri:1, instance:com.myproject.qa.testcases.Loginpagetest@2b6856dd]" name="loginpagetititletest" duration-ms="8" started-at="2020-11-07T10:51:38Z" finished-at="2020-11-07T10:51:38Z">
+        <test-method status="PASS" signature="loginpagetititletest()[pri:1, instance:com.myproject.qa.testcases.Loginpagetest@2b6856dd]" name="loginpagetititletest" duration-ms="6" started-at="2020-11-25T17:28:01Z" finished-at="2020-11-25T17:28:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginpagetititletest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.myproject.qa.testcases.Loginpagetest@2b6856dd]" name="teardown" is-config="true" duration-ms="789" started-at="2020-11-07T10:51:38Z" finished-at="2020-11-07T10:51:39Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.myproject.qa.testcases.Loginpagetest@2b6856dd]" name="teardown" is-config="true" duration-ms="820" started-at="2020-11-25T17:28:01Z" finished-at="2020-11-25T17:28:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.myproject.qa.testcases.Loginpagetest@2b6856dd]" name="setup" is-config="true" duration-ms="9141" started-at="2020-11-07T10:51:56Z" finished-at="2020-11-07T10:52:05Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.myproject.qa.testcases.Loginpagetest@2b6856dd]" name="setup" is-config="true" duration-ms="8304" started-at="2020-11-25T17:28:19Z" finished-at="2020-11-25T17:28:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="CGSLogoTest()[pri:2, instance:com.myproject.qa.testcases.Loginpagetest@2b6856dd]" name="CGSLogoTest" duration-ms="1391" started-at="2020-11-07T10:52:05Z" finished-at="2020-11-07T10:52:06Z">
+        <test-method status="PASS" signature="CGSLogoTest()[pri:2, instance:com.myproject.qa.testcases.Loginpagetest@2b6856dd]" name="CGSLogoTest" duration-ms="1093" started-at="2020-11-25T17:28:27Z" finished-at="2020-11-25T17:28:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CGSLogoTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.myproject.qa.testcases.Loginpagetest@2b6856dd]" name="teardown" is-config="true" duration-ms="737" started-at="2020-11-07T10:52:06Z" finished-at="2020-11-07T10:52:07Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.myproject.qa.testcases.Loginpagetest@2b6856dd]" name="teardown" is-config="true" duration-ms="878" started-at="2020-11-25T17:28:28Z" finished-at="2020-11-25T17:28:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.myproject.qa.testcases.Loginpagetest@2b6856dd]" name="setup" is-config="true" duration-ms="8559" started-at="2020-11-07T10:52:24Z" finished-at="2020-11-07T10:52:33Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.myproject.qa.testcases.Loginpagetest@2b6856dd]" name="setup" is-config="true" duration-ms="10845" started-at="2020-11-25T17:28:46Z" finished-at="2020-11-25T17:28:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="LoginTest()[pri:3, instance:com.myproject.qa.testcases.Loginpagetest@2b6856dd]" name="LoginTest" duration-ms="7835" started-at="2020-11-07T10:52:33Z" finished-at="2020-11-07T10:52:41Z">
+        <test-method status="PASS" signature="LoginTest()[pri:3, instance:com.myproject.qa.testcases.Loginpagetest@2b6856dd]" name="LoginTest" duration-ms="7726" started-at="2020-11-25T17:28:56Z" finished-at="2020-11-25T17:29:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.myproject.qa.testcases.Loginpagetest@2b6856dd]" name="teardown" is-config="true" duration-ms="749" started-at="2020-11-07T10:52:41Z" finished-at="2020-11-07T10:52:42Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.myproject.qa.testcases.Loginpagetest@2b6856dd]" name="teardown" is-config="true" duration-ms="880" started-at="2020-11-25T17:29:04Z" finished-at="2020-11-25T17:29:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

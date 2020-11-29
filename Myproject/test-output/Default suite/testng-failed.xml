@@ -3,20 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.myproject.qa.testcases.Inspecteddatapagetest">
+      <class name="com.myproject.qa.testcases.Newinspectionpagetest">
         <methods>
-          <include name="verifyinspectpagetest" invocation-numbers="0"/>
+          <include name="verifynewinspectiontest"/>
           <include name="teardown"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.myproject.qa.testcases.Inspecteddatapagetest -->
-      <class name="com.myproject.qa.testcases.Loginpagetest">
-        <methods>
-          <include name="teardown"/>
-          <include name="setup"/>
-          <include name="CGSLogoTest"/>
-        </methods>
-      </class> <!-- com.myproject.qa.testcases.Loginpagetest -->
+      </class> <!-- com.myproject.qa.testcases.Newinspectionpagetest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

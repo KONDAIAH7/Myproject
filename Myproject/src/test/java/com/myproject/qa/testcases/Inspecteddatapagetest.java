@@ -50,10 +50,10 @@ public class Inspecteddatapagetest extends TestBase
 	
 	
 	@Test(dataProvider="getBCQAMTestData")
-	public void verifyinspectpagetest(String text1,String text2) throws InterruptedException
+	public void verifyinspectpagetest(String text1,String text2,String text3) throws InterruptedException
 	{
 		//inspecteddatapage.verifyinspectpage("Test", "Test123");
-		inspecteddatapage.verifyinspectpage(text1, text2);
+		inspecteddatapage.verifyinspectpage(text1, text2,text3);
 		
 		
 	}

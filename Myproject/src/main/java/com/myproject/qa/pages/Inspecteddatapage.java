@@ -20,6 +20,8 @@ public class Inspecteddatapage extends TestBase
 	
 	@FindBy(xpath="//textarea[@id='Textarea2']") WebElement qccomment;
 	
+	@FindBy(xpath="//textarea[@id='Textarea3']") WebElement comments;
+	
 	
 	//intializing pageobjects
 		public Inspecteddatapage()
@@ -28,7 +30,7 @@ public class Inspecteddatapage extends TestBase
 		}
 		
 		//Actions
-		public void verifyinspectpage(String text1,String text2) throws InterruptedException
+		public void verifyinspectpage(String text1,String text2,String text3) throws InterruptedException
 		{
 			Select inspdrop=new Select(insptype);
 			Thread.sleep(3000);
@@ -45,6 +47,8 @@ public class Inspecteddatapage extends TestBase
 			alerttext.sendKeys(text1);
 	
 			qccomment.sendKeys(text2);
+			
+			comments.sendKeys(text3);
 		}
 	
 }
