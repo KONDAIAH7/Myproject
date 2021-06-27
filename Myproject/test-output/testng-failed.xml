@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [My Project BCQAM APPLICATION]">
+  <listeners>
+    <listener class-name="com.myproject.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="BCQAM TEST CASES(failed)">
     <classes>
-      <class name="com.myproject.qa.testcases.Newinspectionpagetest">
+      <class name="com.myproject.qa.testcases.Inspecteddatapagetest">
         <methods>
-          <include name="verifynewinspectiontest"/>
+          <include name="verifyinspectpagetest"/>
           <include name="teardown"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.myproject.qa.testcases.Newinspectionpagetest -->
+      </class> <!-- com.myproject.qa.testcases.Inspecteddatapagetest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- BCQAM TEST CASES(failed) -->
+</suite> <!-- Failed suite [My Project BCQAM APPLICATION] -->

@@ -44,7 +44,7 @@ public class Loginpage extends TestBase
 		lgnbtn.click();
 		
 		Select drop=new Select(vendordropdown);
-		drop.selectByValue("7");
+		drop.selectByValue("4");
 		Thread.sleep(2000);
 		dropbtn.click();
 		Thread.sleep(2000);

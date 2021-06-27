@@ -3,13 +3,38 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.myproject.qa.testcases.Newinspectionpagetest">
+      <class name="com.myproject.qa.testcases.Homepagetest">
         <methods>
-          <include name="verifynewinspectiontest"/>
+          <include name="setup"/>
+          <include name="verifyhomepagelabeltest"/>
+          <include name="verifyHomepagetitletest"/>
+          <include name="verifyinspectionpagelink"/>
+          <include name="teardown"/>
+          <include name="verifysummarypagelink"/>
+        </methods>
+      </class> <!-- com.myproject.qa.testcases.Homepagetest -->
+      <class name="com.myproject.qa.testcases.Inspecteddatapagetest">
+        <methods>
+          <include name="verifyinspectpagetest"/>
           <include name="teardown"/>
           <include name="setup"/>
         </methods>
+      </class> <!-- com.myproject.qa.testcases.Inspecteddatapagetest -->
+      <class name="com.myproject.qa.testcases.Newinspectionpagetest">
+        <methods>
+          <include name="verifynewinspectiontest"/>
+          <include name="setup"/>
+        </methods>
       </class> <!-- com.myproject.qa.testcases.Newinspectionpagetest -->
+      <class name="com.myproject.qa.testcases.Loginpagetest">
+        <methods>
+          <include name="LoginTest"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="loginpagetititletest"/>
+          <include name="CGSLogoTest"/>
+        </methods>
+      </class> <!-- com.myproject.qa.testcases.Loginpagetest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
